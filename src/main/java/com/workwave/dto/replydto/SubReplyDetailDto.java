@@ -1,7 +1,6 @@
 package com.workwave.dto.replydto;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
-import com.workwave.entity.board.Reply;
 import com.workwave.entity.board.SubReply;
 import lombok.*;
 

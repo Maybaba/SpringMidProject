@@ -1,6 +1,6 @@
 package com.workwave.util;
 
-import org.mindrot.jbcrypt.BCrypt;
+import org.springframework.security.crypto.bcrypt.BCrypt;
 
 public class PasswordUtil {
 
