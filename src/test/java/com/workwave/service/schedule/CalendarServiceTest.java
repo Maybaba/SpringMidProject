@@ -33,7 +33,7 @@ class CalendarServiceTest {
             
         }
         
-        assertEquals("뭐뭐뭐", myTeamEventsForMonth.get(0).getUserName());
+        assertEquals("신윤종엔지니", myTeamEventsForMonth.get(0).getUserName());
     }
 
 
