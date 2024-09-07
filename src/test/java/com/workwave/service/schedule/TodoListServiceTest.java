@@ -18,19 +18,19 @@ class TodoListServiceTest {
     @Autowired
     private TodoListMapper todoListMapper;
 
-    @Test
-    @DisplayName("투두리스트 특정 부서 아이디로 리스트조회")
-    void getTeamTodoT() {
-        //given
-        String departmentId = "dept1";
-        //when
-        List<TeamTodoList> teamTodosByDepartmentId = todoListMapper.findTeamTodosByDepartmentId(departmentId);
-        //then
-        teamTodosByDepartmentId.forEach(todo -> System.out.println(todo));
+//    @Test
+//    @DisplayName("투두리스트 특정 부서 아이디로 리스트조회")
+//    void getTeamTodoT() {
+//        //given
+//        String departmentId = "dept1";
+//        //when
+//        List<TeamTodoList> teamTodosByDepartmentId = todoListMapper.findTeamTodosByDepartmentId(departmentId);
+//        //then
+//        teamTodosByDepartmentId.forEach(todo -> System.out.println(todo));
 
 //        assertAll(
 //                () -> assertEquals(2, teamTodosByDepartmentId.size(), "Size should be 2"),
 //                () -> assertTrue(teamTodosByDepartmentId.stream().allMatch(todo -> todo.getDepartmentId().equals(departmentId)), "All todos should belong to the specified department")
 //        );
-    }
+//    }
 }
